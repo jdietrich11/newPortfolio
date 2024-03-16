@@ -7,10 +7,11 @@ import "./icon.styles.scss";
 
 interface IconProps {
   icon: string;
+  classname: string;
 }
 
 const Icon: React.FC<IconProps> = (props) => {
-  const { icon } = props;
+  const { icon, classname } = props;
   let real: string = "";
 
   if (icon === "html") {
@@ -26,7 +27,7 @@ const Icon: React.FC<IconProps> = (props) => {
   }
   console.log(icon);
   return (
-    <div className="iconContainer">
+    <div className={classname}>
       <IcomoonReact
         iconSet={iconSet}
         icon={real}

@@ -1,0 +1,18 @@
+@import "../../Assets/styleVariables.scss";
+
+.footerContainer {
+  max-width: 100rem;
+  height: 10rem;
+  margin: auto;
+  margin-top: 10rem;
+  border-top: 0.3rem solid $pink-color;
+  border-radius: 3rem;
+  padding: 2rem;
+
+  .linksContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+}

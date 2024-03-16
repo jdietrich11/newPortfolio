@@ -1,6 +1,7 @@
 @import "../../Assets/styleVariables.scss";
 
-.iconContainer {
+.projectIcon,
+.experienceIcon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,5 +16,21 @@
   .name {
     text-transform: uppercase;
     font-size: 2rem;
+  }
+}
+
+.footerIcon {
+  .icon {
+    height: 4rem;
+    width: 4rem;
+    margin-bottom: 1rem;
+  }
+  .name {
+    height: 0;
+    width: 0;
+    opacity: 0;
+  }
+  &:hover {
+    cursor: pointer;
   }
 }

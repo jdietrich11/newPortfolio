@@ -51,7 +51,7 @@ const ProjectCard: React.FC<ProjectProps> = (props) => {
         <div className="description">{description}</div>
         <div className="languagesContainer" onClick={redirectToCode}>
           {languagesUsed.map((item) => {
-            return <Icon icon={item} />;
+            return <Icon icon={item} classname="projectIcon" />;
           })}
         </div>
       </div>

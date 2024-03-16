@@ -38,7 +38,7 @@ const Home: React.FC = () => {
         </div>
         <div className="experienceIconContainer">
           {experienceList.map((item) => {
-            return <Icon icon={item} />;
+            return <Icon icon={item} classname="experienceIcon" />;
           })}
         </div>
       </div>

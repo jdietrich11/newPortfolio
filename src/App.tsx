@@ -6,6 +6,7 @@ import About from "./Pages/About/About";
 import Home from "./Pages/Home/Home";
 import References from "./Pages/References/References";
 import Resume from "./Pages/Resume/Resume";
+import Footer from "./Components/footer/footer";
 
 import "./App.styles.scss";
 
@@ -20,6 +21,7 @@ const App: React.FC = () => {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );
