@@ -1,4 +1,5 @@
 @import "../../Assets/styleVariables.scss";
+@import "./header.animation.scss";
 
 .headerContainer {
   position: fixed;
@@ -10,20 +11,21 @@
   transform: translate(-50%, 0);
   .nameContainer {
     position: absolute;
-    left: 50%;
-    top: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-decoration: none;
 
+    animation: namePositionAnimation 1s ease-in-out;
+    animation-timeline: scroll(block nearest);
+
     transform: translate(-50%, -50%);
     .name {
       color: $blue-color;
       font-size: 5rem;
       filter: saturate(150%);
-      animation: nameAnimation 1s alternate;
+      animation: nameAnimation 1s ease-in-out;
       animation-timeline: scroll(block nearest);
     }
     .titleContainer {
@@ -33,57 +35,11 @@
         font-size: 2rem;
         text-transform: uppercase;
       }
-      animation: titleAnimation 1s alternate;
+      animation: titleAnimation 1s ease-in-out;
       animation-timeline: scroll(block nearest);
     }
   }
 
-  animation: scrollAnimation 1s alternate;
+  animation: scrollAnimation 1s ease-in-out;
   animation-timeline: scroll(block nearest);
-}
-
-@keyframes scrollAnimation {
-  0% {
-    height: 100vh;
-    width: 100vw;
-
-    justify-content: flex-end;
-    align-items: flex-end;
-  }
-  75% {
-    border-bottom: 0;
-  }
-  85% {
-    border-radius: 0;
-  }
-  100% {
-    height: 10rem;
-    width: 100rem;
-    border-bottom: 0.3rem solid $blue-color;
-    border-radius: 3rem;
-  }
-}
-
-@keyframes titleAnimation {
-  0% {
-  }
-  75% {
-    height: 3rem;
-    transform: translateY(0);
-  }
-  100% {
-    height: 0;
-    transform: translateY(-2rem);
-  }
-}
-
-@keyframes nameAnimation {
-  0% {
-  }
-  85% {
-    text-shadow: none;
-  }
-  100% {
-    text-shadow: 5px 5px 0 $pink-color;
-  }
 }
