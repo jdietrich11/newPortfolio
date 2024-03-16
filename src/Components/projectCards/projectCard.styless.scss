@@ -67,21 +67,41 @@
   }
 
   &:nth-child(4) {
+    .description {
+      background: linear-gradient(to bottom, #69db7c, #f69daf);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
     .siteName {
       color: #37b24d;
     }
   }
   &:nth-child(5) {
+    .description {
+      background: linear-gradient(to bottom, Blue, Red);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
     .siteName {
       color: blue;
     }
   }
   &:nth-child(6) {
+    .description {
+      background: linear-gradient(to bottom, #0cc, white);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
     .siteName {
       color: #0cc;
     }
   }
   &:last-child {
+    .description {
+      background: linear-gradient(to bottom, #f85411, white);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
     .siteName {
       color: #f85411;
     }
