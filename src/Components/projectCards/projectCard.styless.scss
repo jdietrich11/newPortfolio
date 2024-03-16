@@ -1,0 +1,89 @@
+@import "../../Assets/styleVariables.scss";
+
+.projectCardContainer {
+  max-width: 100rem;
+  height: 50rem;
+  margin: auto;
+  display: flex;
+  margin-top: 3rem;
+  overflow: hidden;
+
+  &:nth-of-type(even) {
+    flex-direction: row;
+  }
+  &:nth-of-type(odd) {
+    flex-direction: row-reverse;
+  }
+
+  .imgContainer {
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    .img {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 5rem;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .infoContainer {
+    width: 50%;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+
+    .siteName {
+      font-size: 3rem;
+      text-transform: uppercase;
+    }
+
+    .description {
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    .languagesContainer {
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  &:nth-child(4) {
+    .siteName {
+      color: #37b24d;
+    }
+  }
+  &:nth-child(5) {
+    .siteName {
+      color: blue;
+    }
+  }
+  &:nth-child(6) {
+    .siteName {
+      color: #0cc;
+    }
+  }
+  &:last-child {
+    .siteName {
+      color: #f85411;
+    }
+  }
+}

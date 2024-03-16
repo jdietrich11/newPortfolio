@@ -3,6 +3,21 @@ import React from "react";
 import "./Home.styles.scss";
 
 import IntroBanner from "../../Components/introBanner/introBanner";
+import ProjectCard from "../../Components/projectCards/projectCard";
+
+import ProjectData from "../../Assets/information/projects";
+import Icon from "../../Components/icon/icon";
+
+const experienceList = [
+  "html",
+  "css",
+  "scss",
+  "javascript",
+  "react",
+  "redux",
+  "react native",
+  "typescript",
+];
 
 const Home: React.FC = () => {
   return (
@@ -17,6 +32,19 @@ const Home: React.FC = () => {
         ></video>
       </div>
       <IntroBanner />
+      <div className="experienceContainer">
+        <div>
+          <div className="experienceHeader">Skills</div>
+        </div>
+        <div className="experienceIconContainer">
+          {experienceList.map((item) => {
+            return <Icon icon={item} />;
+          })}
+        </div>
+      </div>
+      {ProjectData.map((item) => {
+        return <ProjectCard key={item.id} data={item} />;
+      })}
     </div>
   );
 };
