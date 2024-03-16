@@ -2,6 +2,8 @@ import React from "react";
 
 import "./Home.styles.scss";
 
+import IntroBanner from "../../Components/introBanner/introBanner";
+
 const Home: React.FC = () => {
   return (
     <div className="homeContainer">
@@ -14,9 +16,14 @@ const Home: React.FC = () => {
           src={require("../../Assets/Video/video.mp4")}
         ></video>
       </div>
-      <div className="makeBigger">Hello World</div>
+      <IntroBanner />
     </div>
   );
 };
 
 export default Home;
+
+// background video and header
+// Hi I'm (breif about) Intro Banner
+// projects
+// footer

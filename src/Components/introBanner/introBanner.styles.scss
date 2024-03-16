@@ -1,0 +1,50 @@
+@import "../../Assets/styleVariables.scss";
+
+.introBannerContainer {
+  height: 30rem;
+  max-width: 100rem;
+  margin: auto;
+  margin-top: 25rem;
+  margin-bottom: 80rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-sizing: content-box;
+
+  .introTextContainer {
+    height: 100%;
+    width: 50%;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+
+    .introText {
+      text-align: center;
+      color: black;
+      font-size: 2.5rem;
+      background: linear-gradient(to bottom right, $blue-color, $pink-color);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  .imgContainer {
+    display: block;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    border-radius: 3rem;
+    overflow: hidden;
+
+    .img {
+      position: absolute;
+      bottom: -15rem;
+      width: 125%;
+      filter: brightness(80%);
+    }
+  }
+}
