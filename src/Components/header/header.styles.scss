@@ -48,8 +48,6 @@
 @media (max-width: 1024px) {
 }
 @media (max-width: 768px) {
-}
-@media (max-width: 480px) {
   .headerContainer {
     width: 100vw;
     padding: 2rem;
@@ -57,4 +55,6 @@
       margin-left: -2.5rem;
     }
   }
+}
+@media (max-width: 480px) {
 }

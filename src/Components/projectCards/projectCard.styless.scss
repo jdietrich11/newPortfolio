@@ -109,10 +109,6 @@
 }
 
 @media (max-width: 1024px) {
-}
-@media (max-width: 768px) {
-}
-@media (max-width: 480px) {
   .projectCardContainer {
     width: 100vw;
     padding: 2rem;
@@ -129,4 +125,8 @@
       height: 40rem;
     }
   }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 480px) {
 }

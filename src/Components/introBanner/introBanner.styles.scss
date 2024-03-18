@@ -50,10 +50,19 @@
 }
 
 @media (max-width: 1024px) {
+  .introBannerContainer {
+    padding: 2rem;
+    .imgContainer {
+      height: 100%;
+      .img {
+        height: 100%;
+        bottom: 0;
+        width: auto;
+      }
+    }
+  }
 }
 @media (max-width: 768px) {
-}
-@media (max-width: 480px) {
   .introBannerContainer {
     padding: 2rem;
     flex-direction: column;
@@ -71,4 +80,6 @@
       }
     }
   }
+}
+@media (max-width: 480px) {
 }
