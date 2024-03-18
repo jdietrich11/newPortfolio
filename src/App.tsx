@@ -8,11 +8,9 @@ import References from "./Pages/References/References";
 import Resume from "./Pages/Resume/Resume";
 import Footer from "./Components/footer/footer";
 
-import "./App.styles.scss";
-
 const App: React.FC = () => {
   return (
-    <div className="App">
+    <>
       <BrowserRouter>
         <Header />
         <Routes>
@@ -23,7 +21,7 @@ const App: React.FC = () => {
         </Routes>
         <Footer />
       </BrowserRouter>
-    </div>
+    </>
   );
 };
 

@@ -12,7 +12,7 @@
   }
   28% {
     height: 10rem;
-    width: 100rem;
+    max-width: 100rem;
     background-color: black;
     border-bottom: 0.3rem solid $blue-color;
     border-bottom-right-radius: 3rem;
