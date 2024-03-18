@@ -79,3 +79,35 @@
     top: 50%;
   }
 }
+
+@keyframes linksAnimation {
+  0% {
+    height: 0;
+    width: 0;
+    opacity: 0;
+  }
+  25% {
+    margin: 0;
+  }
+  30% {
+    height: 0;
+    width: 0;
+    opacity: 0;
+    margin-right: 15rem;
+    margin-left: 15rem;
+  }
+  35% {
+    height: auto;
+    width: auto;
+    opacity: 100;
+    margin-right: 32rem;
+    margin-left: 32rem;
+  }
+  100% {
+    height: auto;
+    width: auto;
+    opacity: 100;
+    margin-right: 32rem;
+    margin-left: 32rem;
+  }
+}

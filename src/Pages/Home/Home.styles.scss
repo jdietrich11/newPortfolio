@@ -38,6 +38,20 @@
 }
 
 @media (max-width: 1024px) {
+  .homeContainer {
+    .experienceContainer {
+      .experienceIconContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        grid-column: 3/4;
+
+        .experienceHeader {
+          text-align: center;
+        }
+      }
+    }
+  }
 }
 @media (max-width: 768px) {
   .homeContainer {
