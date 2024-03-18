@@ -107,3 +107,26 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 480px) {
+  .projectCardContainer {
+    width: 100vw;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    .infoContainer {
+      text-align: center;
+      display: flex;
+      gap: 2rem;
+    }
+    .imgContainer {
+      height: 40rem;
+    }
+  }
+}

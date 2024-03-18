@@ -44,3 +44,17 @@
   animation: scrollAnimation 1s ease-in-out;
   animation-timeline: scroll(block nearest);
 }
+
+@media (max-width: 1024px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 480px) {
+  .headerContainer {
+    width: 100vw;
+    padding: 2rem;
+    .nameContainer {
+      margin-left: -2.5rem;
+    }
+  }
+}

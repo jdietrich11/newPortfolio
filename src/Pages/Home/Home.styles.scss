@@ -36,3 +36,21 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 480px) {
+  .homeContainer {
+    .experienceContainer {
+      .experienceIconContainer {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        grid-column: 3/4;
+      }
+    }
+  }
+}
