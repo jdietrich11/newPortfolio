@@ -1,0 +1,74 @@
+@import "../../assets/styleVariables.scss";
+
+.dropdown {
+  max-width: 80rem;
+  margin: auto;
+  margin-bottom: 1.2rem;
+
+  .question,
+  .selected {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    font-size: 2rem;
+    gap: 0.5rem;
+    background-color: white;
+    border-radius: 8px;
+
+    .questionText {
+      margin-left: -2rem;
+    }
+
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+  }
+
+  .answer {
+    height: 0;
+    opacity: 0;
+    transition: all 0.5s ease-in;
+
+    .answerItem {
+      height: 0;
+    }
+    &-active {
+      opacity: 100;
+      background-color: black;
+      color: white;
+      padding: 2rem;
+      margin-top: 0.2rem;
+      border-radius: 8px;
+
+      transition: all 0.5s ease-in;
+
+      .answerItem {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+  .selected {
+    background-color: black;
+    color: white;
+    .imgIndex {
+      filter: invert(1);
+    }
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:nth-child(5) {
+    .answer-active {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  }
+}

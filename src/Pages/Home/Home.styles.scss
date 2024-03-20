@@ -35,6 +35,16 @@
       -webkit-text-fill-color: transparent;
     }
   }
+  .manyMore {
+    color: $blue-color;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    border-radius: 2rem;
+    font-family: $header-font;
+  }
 }
 
 @media (max-width: 1024px) {

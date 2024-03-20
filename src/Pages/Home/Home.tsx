@@ -45,6 +45,7 @@ const Home: React.FC = () => {
       {ProjectData.map((item) => {
         return <ProjectCard key={item.id} data={item} />;
       })}
+      <div className="manyMore">With many more to come!</div>
     </div>
   );
 };
