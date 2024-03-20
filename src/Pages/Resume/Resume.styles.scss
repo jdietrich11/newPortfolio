@@ -1,0 +1,120 @@
+.resume {
+  padding: 1.2rem;
+  width: max(70rem);
+  margin: auto;
+  background-color: #e9ecef;
+
+  .icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 0.5rem;
+  }
+}
+.section {
+  margin-top: 2.2rem;
+}
+.about-info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.6rem;
+  .email,
+  .name {
+    width: max-content;
+  }
+}
+.section-title {
+  font-weight: bold;
+  border: 0.2rem solid black;
+  background-color: rgb(207, 207, 207);
+  margin-bottom: 1.2rem;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  .icon {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+}
+.section-info {
+  text-indent: 2em;
+  font-size: 1.6rem;
+}
+.my-name {
+  text-align: center;
+  font-size: 7.2rem;
+}
+.my-title {
+  text-align: center;
+  font-size: 3.6rem;
+  margin-bottom: 1.2rem;
+}
+.job {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  margin-bottom: 1.2rem;
+}
+.job-description {
+  grid-column: 1 /-1;
+  text-indent: 2em;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.job-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.company {
+  font-style: italic;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+.experiences {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+.prog-lang {
+  border-right: 0.2rem solid black;
+  text-align: center;
+  &:last-child {
+    border-right: none;
+  }
+}
+.award {
+  display: flex;
+  gap: 2.2rem;
+  margin-bottom: 3.2rem;
+}
+
+.footer {
+  .icon {
+    height: 5rem;
+    width: 5rem;
+    justify-content: center;
+    align-self: center;
+
+    transition: transform 3s ease;
+  }
+}
+
+@media (max-width: 600px) {
+  .resume {
+    width: 90vw;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+
+    .about-info {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

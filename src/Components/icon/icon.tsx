@@ -25,7 +25,6 @@ const Icon: React.FC<IconProps> = (props) => {
   } else {
     real = icon;
   }
-  console.log(icon);
   return (
     <div className={classname}>
       <IcomoonReact

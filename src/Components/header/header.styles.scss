@@ -62,6 +62,50 @@
   animation-timeline: scroll(block nearest);
 }
 
+.otherHeaderContainer {
+  height: 10rem;
+  border-bottom: 3px solid $pink-color;
+  box-shadow: 0 2px 0 0 $blue-color;
+  border-radius: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  max-width: 90rem;
+  margin-bottom: 2rem;
+  .nameContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    .name {
+      color: $blue-color;
+      font-size: 5rem;
+      filter: saturate(150%);
+    }
+    .titleContainer {
+      .title {
+        color: $pink-color;
+        font-size: 2rem;
+        text-transform: uppercase;
+      }
+    }
+  }
+  .linkContainerAbout,
+  .linkContainerResume {
+    text-decoration: none;
+  }
+  .linkContainerAbout {
+    margin-right: 2rem;
+    color: $blue-color;
+  }
+  .linkContainerResume {
+    margin-left: 2rem;
+    color: $pink-color;
+  }
+}
+
 @media (max-width: 1024px) {
 }
 @media (max-width: 768px) {
