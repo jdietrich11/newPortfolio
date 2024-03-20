@@ -26,7 +26,7 @@ const Accordion: React.FC<AccorionProps> = (props) => {
   return (
     <div key={id} onClick={() => onTitleClick(id)} className="dropdown">
       <div className={activeIndex.includes(id) ? `selected` : "question"}>
-        <div className="questionText">{question}</div>
+        <div className="questionText">{question}?</div>
       </div>
       <div className={activeIndex.includes(id) ? `answer-active` : "answer"}>
         {answers
