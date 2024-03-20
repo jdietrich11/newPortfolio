@@ -4,7 +4,7 @@ import "./About.styles.scss";
 
 const About: React.FC = () => {
   return (
-    <div className="About">
+    <div className="aboutContainer">
       <div>Hello World</div>
     </div>
   );
