@@ -1,42 +1,64 @@
 @import "../../Assets/styleVariables.scss";
 @import "./header.animation.scss";
 
-.headerContainer {
+.headerContainer,
+.otherHeaderContainer {
+  font-family: $primary-font;
   position: fixed;
   display: flex;
-  justify-content: center;
   align-items: center;
+  width: 95vw;
   left: 50%;
-  z-index: 200;
-  height: 100vh;
-  width: 100vw;
+  transform: translateX(-50%);
 
-  transform: translate(-50%, 0);
   .nameContainer {
-    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-decoration: none;
 
+    .name {
+      color: $blue-color;
+      font-size: 5rem;
+      filter: saturate(150%);
+    }
+    .titleContainer {
+      .title {
+        color: $pink-color;
+        font-size: 2rem;
+        text-transform: uppercase;
+      }
+    }
+  }
+  .linkContainerAbout,
+  .linkContainerResume {
+    text-decoration: none;
+    font-size: 2rem;
+  }
+}
+
+.headerContainer {
+  justify-content: center;
+  left: 50%;
+  z-index: 200;
+  height: 100vh;
+
+  transform: translate(-50%, 0);
+  .nameContainer {
+    position: absolute;
+
     animation: namePositionAnimation 1s ease-in-out;
     animation-timeline: scroll(block nearest);
 
     transform: translate(-50%, -50%);
     .name {
-      color: $blue-color;
-      font-size: 5rem;
-      filter: saturate(150%);
       animation: nameAnimation 1s ease-in-out;
       animation-timeline: scroll(block nearest);
     }
     .titleContainer {
       overflow: hidden;
       .title {
-        color: $pink-color;
-        font-size: 2rem;
-        text-transform: uppercase;
       }
       animation: titleAnimation 1s ease-in-out;
       animation-timeline: scroll(block nearest);
@@ -45,8 +67,6 @@
 
   .linkContainerAbout,
   .linkContainerResume {
-    text-decoration: none;
-
     animation: linksAnimation 1s ease-in-out;
     animation-timeline: scroll(block nearest);
   }
@@ -67,35 +87,20 @@
   border-bottom: 3px solid $pink-color;
   box-shadow: 0 2px 0 0 $blue-color;
   border-radius: 6rem;
-  display: flex;
   justify-content: space-between;
-  align-items: center;
   text-decoration: none;
-  max-width: 90rem;
-  margin-bottom: 2rem;
+  margin-top: -12rem;
+  background-color: black;
+
   .nameContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
     .name {
-      color: $blue-color;
-      font-size: 5rem;
-      filter: saturate(150%);
     }
     .titleContainer {
       .title {
-        color: $pink-color;
-        font-size: 2rem;
-        text-transform: uppercase;
       }
     }
   }
-  .linkContainerAbout,
-  .linkContainerResume {
-    text-decoration: none;
-  }
+
   .linkContainerAbout {
     margin-right: 2rem;
     color: $blue-color;
