@@ -3,7 +3,7 @@ export const programmingQA = [
     id: 1,
     question: "How did you start",
     answer:
-      "I began by taking an HTML and CSS course on UDEMY. My cousin Jeremy recommended that I learn JavaScript and not make a decision until I built a BlackJack game using it. So on UDEMY I took mulitiple JavaScript courses in order to better understand it. Then I built my game. He told me that programming is a-lot of smacking your head against a wall but once you get passed it, it can feel great. Being a person who likes to solve puzzles, this drew more interest.",
+      "I began by taking an HTML and CSS course on UDEMY. My mentor Jeremy recommended that I learn JavaScript and not make a decision until I built a BlackJack game using it. So using UDEMY I took mulitiple JavaScript courses in order to better understand it. Then I built my game. He told me that programming is a-lot of smacking your head against a wall but once you get passed it, it can feel great. Being a person who likes to solve puzzles, this drew more interest.",
   },
   {
     id: 2,

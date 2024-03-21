@@ -23,6 +23,11 @@ const Accordion: React.FC<AccorionProps> = (props) => {
     }
   };
 
+  const openInNewTab = (url: string) => {
+    const newWindow = window.open(url, "_blank", "noopener,noreferrer");
+    if (newWindow) newWindow.opener = null;
+  };
+
   return (
     <div key={id} onClick={() => onTitleClick(id)} className="dropdown">
       <div className={activeIndex.includes(id) ? `selected` : "question"}>
@@ -31,7 +36,14 @@ const Accordion: React.FC<AccorionProps> = (props) => {
       <div className={activeIndex.includes(id) ? `answer-active` : "answer"}>
         {answers
           ? answers.map((item: any) => {
-              return <div className="answerItem">{item.name}</div>;
+              return (
+                <div
+                  onClick={() => openInNewTab(item.link)}
+                  className="answerItem"
+                >
+                  {item.name}
+                </div>
+              );
             })
           : answer}
       </div>
