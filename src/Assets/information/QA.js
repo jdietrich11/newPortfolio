@@ -58,11 +58,110 @@ export const programmingQA = [
     answer: "Yes!",
   },
 ];
-export const gamingQA = [{ id: 1, question: "", answer: "" }];
-export const moviesQA = [{ id: 1, question: "", answer: "" }];
-export const showsQA = [{ id: 1, question: "", answer: "" }];
-export const carsQA = [{ id: 1, question: "", answer: "" }];
-export const miscQA = [{ id: 1, question: "", answer: "" }];
-export const outdoorsQA = [{ id: 1, question: "", answer: "" }];
-export const sportsQA = [{ id: 1, question: "", answer: "" }];
-export const familyQA = [{ id: 1, question: "", answer: "" }];
+export const gamingQA = [
+  {
+    id: 1,
+    question: "What are your favorite games",
+    answer: "",
+    answers: [
+      "Bloodborne",
+      "Ghosts of Tsushima",
+      "Knights of the old Republic",
+      "Zelda Tears of the Kingdom",
+      "Zelda Ocarina of Time",
+    ],
+  },
+  {
+    id: 2,
+    question: "Why is Bloodborne your favorite game",
+    answer:
+      "Never have I ever been haunted by a game I didn't play. I bought this game when it first came out in 2015. I played it and could not, for the life of me, get past the 2nd boss Father Gascoigne. For years I kept going back to play this game because the atmosphere was so inticing. This game stuck in my head so much until in 2018 after my first semster of college I finally played it continously to get past this part and beat the game! I have played through the story multiple times sense and as of right now is the only game I have 100% completed. The feeling when finally beating a boss was an addictive feeling. Never before had I played a game with such interesting lore, story-telling methods, and atmosphere.",
+    answers: [""],
+  },
+  {
+    id: 3,
+    question: "What consoles do you have",
+    answer: "",
+    answers: [
+      "N64",
+      "Nintendo Switch",
+      "OG Xbox",
+      "Xbox 360",
+      "PS2",
+      "PS3",
+      "PS4 Pro",
+      "PS5",
+      "PC",
+    ],
+  },
+  {
+    id: 4,
+    question: "Why don't you have an Xbox One or Series X",
+    answer:
+      "I did, but once I was finally able to get a good GPU for my PC I no longer used the Xbox's. I sold them because through gamepass and steam just about every game is playable on pc",
+    answers: [""],
+  },
+  {
+    id: 5,
+    question: "What are some other games you love",
+    answer:
+      "Assasins Creed: Black Flag, Halo Reach, Age of empires 2, Skyrim, Battle for Middle Earth 2, Horizon Zero, Portal, Portal 2, Spider-Man(ps4), Forza, Vanishing of Ethan Carter, Lego starwars, Republic Commando, Spliter Cell: Chaos Theory, Last of us: PT1",
+    answers: [""],
+  },
+];
+export const moviesQA = [
+  {
+    id: 1,
+    question: "What are your favorite movies",
+    answer: "",
+    answers: [
+      "The Princess Bride",
+      "The LOTR Trilogy",
+      "Batman: Under the Red Hood",
+      "Godzilla: King of Monsters",
+      "10 Things I Hate About You",
+      "A knights Tale",
+    ],
+  },
+  {
+    id: 2,
+    question: "Why not StarWars",
+    answer:
+      "It used to be at the top of my list of favorite movies, but after the last Jedi it was removed from my favorites list. To me, that movie was not just a bad StarWars movie, It was the worst movie I had ever seen in my entire life. Never had a Movie ruin so many childhood characters and franchise. This movie made the origional Trilogy not matter, and for that I can't ignore it and StarWars was removed from my favoite movies list.",
+    answers: [""],
+  },
+  {
+    id: 3,
+    question: "Why The Princess Bride",
+    answer:
+      "This movie was always a GoTo movie for me, when I was sick or bored all growing up. In High-School I read the book for an english class and began learning more and more about it. To this day this is the only movie I've seen that continues to be entertaining and gets better the more you think about it, the more you watch it. It's the only near-perfect movie I've seen and likely will ever see.",
+    answers: [""],
+  },
+  {
+    id: 4,
+    question: "Do you have a favorite Genre",
+    answer:
+      "No, I can equally enjoy documentaries, comedies, Rom-Coms, Musicals, etc... I believe there are good and bad in every Genre. Like music, enjoy the good ones and don't watch the bad ones.",
+    answers: [""],
+  },
+  {
+    id: 5,
+    question: "Do you have a least favorite Movie",
+    answer:
+      "Yes, while there are many movies nothing is as bad as StarWars: The Last Jedi.",
+    answers: [""],
+  },
+  {
+    id: 6,
+    question: "What about Actors",
+    answer:
+      "There are many great actors, I don't believe any one actor will make or break a movie. They all have good and bad. My favoite is probably Heath Ledger, though I also enjoy many others. Like my favorites my least favorites still have enjoyable movies, generally speaking though I don't generally enjoy Jim Carry, Adam Sandler, or Will Ferrell movies.",
+    answers: [""],
+  },
+];
+export const showsQA = [{ id: 1, question: "", answer: "", answers: [""] }];
+export const carsQA = [{ id: 1, question: "", answer: "", answers: [""] }];
+export const miscQA = [{ id: 1, question: "", answer: "", answers: [""] }];
+export const outdoorsQA = [{ id: 1, question: "", answer: "", answers: [""] }];
+export const sportsQA = [{ id: 1, question: "", answer: "", answers: [""] }];
+export const familyQA = [{ id: 1, question: "", answer: "", answers: [""] }];

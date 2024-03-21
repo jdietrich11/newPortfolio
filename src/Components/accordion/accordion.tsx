@@ -6,8 +6,8 @@ interface AccorionProps {
   key: number;
   id: number;
   question: string;
-  answers: any;
-  answer: any;
+  answers: any | void;
+  answer: any | void;
 }
 
 const Accordion: React.FC<AccorionProps> = (props) => {
