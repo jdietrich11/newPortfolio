@@ -231,44 +231,44 @@ export const carsQA = [
 ];
 export const miscQA = [
   {
-    id: 1,
-    question: "What do you mean by Misc. Projects",
-    answer:
-      "I like to build and create a lot of different things. Rather than have a small section for each or try to mix them in with other things I did a general section to fit them into.",
-  },
-  {
     id: 2,
     question: "Virtual Pinball Cabinet",
+    mov: require("../../Assets/Misc/Pinball.MP4"),
     answer:
-      "I was introduced to one of these from my Highschool girlfriends dad and decided to try to build one myself. loaded up with over 200 different virtual pinball tables. Using programs like Visual Pinball and PinballFX. Wired up with light up buttons, strobes, cabinet lights, sirens, and a fan. This is one of my most complete project's I've worked on. Currently I'm rebuilding it in order to do some wire managment and finish up some other addons with some more to come like a bell and a knocker.",
+      "I was introduced to one of these from my Highschool girlfriends dad and decided to try to build one myself. loaded up with over 200 different virtual pinball tables. Using programs like Visual Pinball and PinballFX. Wired up with light up buttons, strobes, cabinet lights, sirens, and a fan. This is one of my most complete project's I've worked on. I did not like how the it was turning out so I sold this one and have begun designs on a new one.",
   },
   {
     id: 3,
     question: "Game Ogre",
+    mov: require("../../Assets/Misc/GameOgre.MP4"),
     answer:
-      "This is a Virtual Arcade cabinet. This contains over 3000 games and runs everthing, I know of, Nintendo 64 and older. Currently it only works with joystick and button, or controller games some aiming guns for arcade shooters are currently being developed that will work with the modern screens I'm hoping to add that capability to this project. It also still needs to be painted and add a few other finishing touches.",
+      "This is a Virtual Arcade cabinet. This contains over 3000 games and runs everthing, I know of, Nintendo 64 and older. Currently it only works with joystick and button, or controller games. However the aiming gun arcade shooters are currently being developed that will work with the modern screens. I'm hoping to add that capability to this project. I would also like to vynl wrap it with an arcade cabinet like style",
   },
   {
     id: 4,
     question: "Desk",
+    img: require("../../Assets/Misc/Desk.jpg"),
     answer:
-      "I built this desk to take with me to my apartment when I lived in provo. I wanted the open shelves so I could place a projector on it so I could work at my desk comfortably and still have a TV-Show on in the background.",
+      "I built this desk to take with me to my apartment when I lived in provo. I wanted the open shelves so I could place a projector on it so I could work at my desk comfortably and still have a TV-Show or movie being projected onto my wall behind the desk.",
   },
   {
     id: 5,
     question: "Table",
+    img: require("../../Assets/Misc/Table.jpg"),
     answer:
       "Made out of red-wood this is probably one of the coolest things I've made. Custom made to hold my TV and a shelf to keep my gaming consoles off the carpet.",
   },
   {
     id: 6,
     question: "Wood Engraving",
+    img: require("../../Assets/Misc/Engraving.JPG"),
     answer:
-      "Starting out by hand I enjoy doing some pyrography. I like the smell of burning wood and how it looks. More Recently I've invested in a Laser engraver and have created family plaques for my mom and siblings, wooden Christmas ornaments, and some other things.",
+      "Starting out by hand, I enjoy doing some pyrography. I like the smell of burning wood and how it looks. More Recently I've invested in a Laser engraver and have created family plaques for my mom and married siblings, wooden Christmas ornaments, and some other things.",
   },
   {
     id: 7,
     question: "UE5",
+    img: require("../../Assets/Misc/UE5.png"),
     answer:
       "This is my unnamed UE5 project idea, not yet started. I'm working on learning UE5 and then starting this project",
   },
