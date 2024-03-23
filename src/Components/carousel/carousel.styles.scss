@@ -13,18 +13,17 @@
     left: 0;
     justify-content: center;
     align-items: center;
-    height: 80rem;
-    gap: 16px;
-    width: 200%;
+    height: 50rem;
+    gap: 26px;
     height: 100%;
-    animation: slide 15s linear infinite;
+    animation: slide 25s linear infinite;
 
     @keyframes slide {
       0% {
-        left: 0;
+        left: 100%;
       }
       100% {
-        left: -100%;
+        left: -400%;
       }
     }
 
@@ -35,8 +34,7 @@
 
       .carouselCardImg {
         height: 50rem;
-        width: 50rem;
-        border-radius: 10%;
+        border-radius: 5rem;
       }
     }
   }

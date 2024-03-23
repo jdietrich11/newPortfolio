@@ -1,0 +1,24 @@
+@import "../../Assets/styleVariables.scss";
+
+.aboutItemContainer {
+  min-height: 69vh;
+  margin: auto;
+  margin-top: 2rem;
+
+  .introContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100rem;
+    margin: auto;
+    .intro {
+      color: $blue-color;
+      font-size: 2rem;
+      text-align: center;
+    }
+  }
+  .accordionContainer {
+    margin-top: 5rem;
+  }
+}

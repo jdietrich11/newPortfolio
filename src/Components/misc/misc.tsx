@@ -1,10 +1,10 @@
 import React from "react";
 
-import "./gaming.styles.scss";
+import "./misc.styles.scss";
 
 import AboutItem from "../aboutItem/aboutItem";
 
-import { gamingQA } from "../../Assets/information/QA";
+import { miscQA } from "../../Assets/information/QA";
 
 const gamingCarousel = [
   {
@@ -37,17 +37,17 @@ const gamingCarousel = [
 const intro =
   'I have had a love for gaming pretty much my whole life. From Xbox system link parties with my extended family and I playing Halo CE and Halo 2 on the OG xbox on new years when they had just been released.Hosting Age of Empires 2 lan parties with my neighborhood group (stillgoes on to this day), we even had "skyrim days." When the legendaryedition was released we all got together and played it at the sametime for 4 days straight surviving on Dominos pizza and mt dew. Newgames have come out and I have loved many of them, some of those olderones I still hold close. There something amazing about being immersedin these crazy worlds with intriguing stories.';
 
-const Gaming: React.FC = () => {
+const Misc: React.FC = () => {
   return (
     <div className="gamingContainer">
       <AboutItem
         key={gamingCarousel[0].id}
         intro={intro}
-        qa={gamingQA}
+        qa={miscQA}
         carousel={gamingCarousel}
       />
     </div>
   );
 };
 
-export default Gaming;
+export default Misc;
