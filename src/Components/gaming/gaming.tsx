@@ -39,18 +39,20 @@ const Gaming: React.FC = () => {
   console.log(gamingCarousel);
   return (
     <div className="gamingContainer">
-      <Carousel CarouselDetails={gamingCarousel} />
-      <div className="intro">
-        I started Gaming because back in January 2021 I changed jobs. I became a
-        graveyard shift Security Guard. In between patrolling I was allowed to
-        fill my time with Movies, TV-shows, YouTube, etc... As this was getting
-        old after awhile I began to wonder how YouTuber B is for Build started
-        his channel and having a desire to also work on a project car. I started
-        doing research as to what he did professionaly. He was a Software
-        Engineer. I started digging deeper and found it did not require a
-        degree. I spoke with my mentor Jeremy Robertson who is a front-end web
-        developer as well. He recommended I get my feet wet and try it out. I
-        fell in love with it from there! C
+      <div className="introContainer">
+        <Carousel CarouselDetails={gamingCarousel} />
+        <div className="intro">
+          I have had a love for gaming pretty much my whole life. From Xbox
+          system link parties with my extended family and I playing Halo CE and
+          Halo 2 on the OG xbox on new years when they had just been released.
+          To playing Age of Empires 2 lan parties with my neighborhood group
+          (still goes on to this day), we even had "skyrim days." When the
+          legendary edition was released we all got together and played it at
+          the same time for 4 days straight surviving on Dominos pizza and mt
+          dew. New games have come out and I have loved many of them, some of
+          those older ones I still hold close. There something amazing about
+          being immersed in these crazy worlds with intriguing stories.
+        </div>
       </div>
       <div className="accordionContainer">
         {gamingQA.map((item) => {

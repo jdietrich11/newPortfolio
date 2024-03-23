@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./carousel.styles.scss";
+
 interface CarouselItemProps {
   key: number;
   imgUrl: any;

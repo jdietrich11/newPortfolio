@@ -10,7 +10,6 @@ interface CarouselProps {
 
 const Carousel: React.FC<CarouselProps> = (props) => {
   const { CarouselDetails } = props;
-  console.log(CarouselDetails);
 
   return (
     <div className="carouselContainer">
