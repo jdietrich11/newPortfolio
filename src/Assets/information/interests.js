@@ -1,4 +1,5 @@
 import Programming from "../../Components/programming/programming";
+import Gaming from "../../Components/gaming/gaming";
 
 const personalInterests = [
   {
@@ -9,6 +10,7 @@ const personalInterests = [
   {
     id: 2,
     name: "gaming",
+    object: <Gaming />,
   },
   {
     id: 3,
