@@ -24,9 +24,7 @@ const Accordion: React.FC<AccorionProps> = (props) => {
   };
 
   const openInNewTab = (url: string) => {
-    console.log(url);
     if (url === undefined) {
-      console.log("You're hired");
     } else {
       const newWindow = window.open(url, "_blank", "noopener,noreferrer");
       if (newWindow) newWindow.opener = null;
