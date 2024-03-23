@@ -5,6 +5,12 @@ I feel like my skills have improved and thought a new portfolio would be good to
 TODO
 --loader
 --active background
+--ABOUT family
+--ABOUT Sports
+--ABOUT Outdoors
+--ABOUT misc
+--ABOUT cars
+--ABOUT tv shows intro
 
 IDEA's
 aphantasia - start on an all black screen and uncover the website as they move their mouse. (like Fog of war).
