@@ -12,6 +12,8 @@ TODO
 --ABOUT cars
 --ABOUT tv shows intro
 
+--- fix header in live version, figure out why Local host works fine but build does not
+
 IDEA's
 aphantasia - start on an all black screen and uncover the website as they move their mouse. (like Fog of war).
 
