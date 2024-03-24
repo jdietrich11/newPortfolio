@@ -96,7 +96,7 @@
       color: #0cc;
     }
   }
-  &:last-child {
+  &:nth-child(7) {
     .description {
       background: linear-gradient(to bottom, #f85411, white);
       background-clip: text;
