@@ -9,33 +9,40 @@ import { carsQA } from "../../Assets/information/QA";
 const gamingCarousel = [
   {
     id: 1,
-    imgUrl: require("../../Assets/Photos/bloodborne.jpg"),
-    imgTitle: "Bloodborne",
+    imgUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo-AicSkcWWF0R5FLG9cZZx65Djn_5uyCIMezUN3pKKw&s",
+    imgTitle: "1969 Chevelle",
   },
   {
     id: 2,
-    imgUrl: require("../../Assets/Photos/ghostsOfTsushima.jfif"),
-    imgTitle: "Ghosts of Tsushima",
+    imgUrl: require("../../Assets/Photos/Audi.JPG"),
+    imgTitle: "2001 Audi S4",
   },
   {
     id: 3,
-    imgUrl: require("../../Assets/Photos/KnightsOfTheOldRepublic.jpg"),
-    imgTitle: "Knights of the old Republic",
+    imgUrl: require("../../Assets/Photos/Camaro.JPG"),
+    imgTitle: "2013 Camaro",
   },
   {
     id: 4,
-    imgUrl: require("../../Assets/Photos/ZeldaTearsOfTheKingdom.avif"),
-    imgTitle: "Zelda Tears of the Kingdom",
+    imgUrl:
+      "https://hips.hearstapps.com/hmg-prod/images/2025-audi-rs6-avant-gt-motion-103-65bbc522aae10.jpg?crop=0.488xw:0.366xh;0.158xw,0.395xh&resize=1200:*",
+    imgTitle: "2024 Audi RS6 Avant GT",
   },
   {
     id: 5,
-    imgUrl: require("../../Assets/Photos/Legend-of-Zelda-Ocarina-of-Time.jpg"),
-    imgTitle: "Zelda Ocarina of Time",
+    imgUrl: require("../../Assets/Photos/Apollo.jpg"),
+    imgTitle: "Apollo Intensa Emozione",
+  },
+  {
+    id: 5,
+    imgUrl: require("../../Assets/Photos/FerrariF1.jpg"),
+    imgTitle: "Charles Leclerc and Carlos Sainz with 2024 Ferrari F1 car",
   },
 ];
 
 const intro =
-  'I have had a love for gaming pretty much my whole life. From Xbox system link parties with my extended family and I playing Halo CE and Halo 2 on the OG xbox on new years when they had just been released.Hosting Age of Empires 2 lan parties with my neighborhood group (stillgoes on to this day), we even had "skyrim days." When the legendaryedition was released we all got together and played it at the sametime for 4 days straight surviving on Dominos pizza and mt dew. Newgames have come out and I have loved many of them, some of those olderones I still hold close. There something amazing about being immersedin these crazy worlds with intriguing stories.';
+  "My love of cars really came into place due to my friendship with Andrew Aagard. It amazed me how he would be able to identify a car from a few streets over that we could not see but could hear. We had many an argument over different cars. We try to go to the Utah Auto Expo each year and have yet to hear a good opinion from him as of late. We often discuss in depth what we liked and did not like from the show. We would talk about Top Gear, what they did well and what I think they could have done better. For example, I think they never took an audi on any of their adventures because it would make their trips too east ;).";
 
 const Cars: React.FC = () => {
   return (

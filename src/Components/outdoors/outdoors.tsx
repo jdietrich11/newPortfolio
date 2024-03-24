@@ -9,33 +9,28 @@ import { outdoorsQA } from "../../Assets/information/QA";
 const gamingCarousel = [
   {
     id: 1,
-    imgUrl: require("../../Assets/Photos/bloodborne.jpg"),
-    imgTitle: "Bloodborne",
+    imgUrl: require("../../Assets/Photos/BearLakeRide.jpg"),
+    imgTitle: "Ride with Brother and Father to Bear Lake",
   },
   {
     id: 2,
-    imgUrl: require("../../Assets/Photos/ghostsOfTsushima.jfif"),
-    imgTitle: "Ghosts of Tsushima",
+    imgUrl: require("../../Assets/Photos/Heber.jpg"),
+    imgTitle: "Fall ride to Heber up AF canyon",
   },
   {
     id: 3,
-    imgUrl: require("../../Assets/Photos/KnightsOfTheOldRepublic.jpg"),
-    imgTitle: "Knights of the old Republic",
+    imgUrl: require("../../Assets/Photos/Motorcycle.jpg"),
+    imgTitle: "2020 Yamaha R3",
   },
   {
     id: 4,
-    imgUrl: require("../../Assets/Photos/ZeldaTearsOfTheKingdom.avif"),
-    imgTitle: "Zelda Tears of the Kingdom",
-  },
-  {
-    id: 5,
-    imgUrl: require("../../Assets/Photos/Legend-of-Zelda-Ocarina-of-Time.jpg"),
-    imgTitle: "Zelda Ocarina of Time",
+    imgUrl: require("../../Assets/Photos/PottersPond.jpg"),
+    imgTitle: "Potters Ponds Joes Valley Utah",
   },
 ];
 
 const intro =
-  'I have had a love for gaming pretty much my whole life. From Xbox system link parties with my extended family and I playing Halo CE and Halo 2 on the OG xbox on new years when they had just been released.Hosting Age of Empires 2 lan parties with my neighborhood group (stillgoes on to this day), we even had "skyrim days." When the legendaryedition was released we all got together and played it at the sametime for 4 days straight surviving on Dominos pizza and mt dew. Newgames have come out and I have loved many of them, some of those olderones I still hold close. There something amazing about being immersedin these crazy worlds with intriguing stories.';
+  "Growing up when I was not inside playing games you could often find me outside. Playing Basketball, going camping, riding ATVs, Airsoft wars, backyard football with all the neighborhood kids, etc... Many of those things have long since past but I still love many of them. Though to be honest, I havent been the best at doing them as often as I should. I still love Camping and go on a trip with all of my closest friends every year in August. I get out and play basketball when I can. Riding my motorcycle up the canyon to Heber and back is one of my favorite trips I take with my older brother each year.";
 
 const Outdoors: React.FC = () => {
   return (

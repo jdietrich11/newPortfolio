@@ -8,7 +8,7 @@ import moviesCarousel from "../../Assets/information/movies";
 import { moviesQA } from "../../Assets/information/QA";
 
 const intro =
-  'I have had a love for Movies pretty much my whole life. From Xbox system link parties with my extended family and I playing Halo CE and Halo 2 on the OG xbox on new years when they had just been released. To playing Age of Empires 2 lan parties with my neighborhood group (still goes on to this day), we even had "skyrim days." When the legendary edition was released we all got together and played it at the same time for 4 days straight surviving on Dominos pizza and mt dew. New games have come out and I have loved many of them, some of those older ones I still hold close. There something amazing about being immersed in these crazy worlds with intriguing stories.';
+  'Movies have always been a big part of my life. I have always loved them. They were a way to bond with my siblings. Watching my first rate "R" movie happened with my older brother. Who convinced my mother to allow us to watch Defiance. A movie about the jews hidding in the forests of Poland during WW2. Using the historical aspect for the reason we be allowed to watch. I have fond memories of setting up a projector and screen on camping trips and sitting around the fire to watch a movie on family reunion trips with my extended family. I grew up enjoying and watching chick-flicks like 10 things I hate About you with my sisters. Movies are a way we all connect, we build relationships based on agreeing or disagreeing on movies.';
 
 const Movies: React.FC = () => {
   return (

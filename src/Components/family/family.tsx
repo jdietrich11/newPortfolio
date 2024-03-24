@@ -9,33 +9,13 @@ import { familyQA } from "../../Assets/information/QA";
 const gamingCarousel = [
   {
     id: 1,
-    imgUrl: require("../../Assets/Photos/bloodborne.jpg"),
+    imgUrl: require("../../Assets/Misc/Family.jpg"),
     imgTitle: "Bloodborne",
-  },
-  {
-    id: 2,
-    imgUrl: require("../../Assets/Photos/ghostsOfTsushima.jfif"),
-    imgTitle: "Ghosts of Tsushima",
-  },
-  {
-    id: 3,
-    imgUrl: require("../../Assets/Photos/KnightsOfTheOldRepublic.jpg"),
-    imgTitle: "Knights of the old Republic",
-  },
-  {
-    id: 4,
-    imgUrl: require("../../Assets/Photos/ZeldaTearsOfTheKingdom.avif"),
-    imgTitle: "Zelda Tears of the Kingdom",
-  },
-  {
-    id: 5,
-    imgUrl: require("../../Assets/Photos/Legend-of-Zelda-Ocarina-of-Time.jpg"),
-    imgTitle: "Zelda Ocarina of Time",
   },
 ];
 
 const intro =
-  'I have had a love for gaming pretty much my whole life. From Xbox system link parties with my extended family and I playing Halo CE and Halo 2 on the OG xbox on new years when they had just been released.Hosting Age of Empires 2 lan parties with my neighborhood group (stillgoes on to this day), we even had "skyrim days." When the legendaryedition was released we all got together and played it at the sametime for 4 days straight surviving on Dominos pizza and mt dew. Newgames have come out and I have loved many of them, some of those olderones I still hold close. There something amazing about being immersedin these crazy worlds with intriguing stories.';
+  'I grew up as the forgotten child. 8/9 the 2nd youngest, or as I like to say the "almost" golden child. with 1 younger brother, 2 older sisters, and 3 older brothers. 4/6 siblings are now married with kids. My better family are my closest friends. Loyal, Honest, and dependable they have been the ones I rely on and spend most of my time with. I love to say "Friends are just the family you actually get to choose"';
 
 const Family: React.FC = () => {
   return (

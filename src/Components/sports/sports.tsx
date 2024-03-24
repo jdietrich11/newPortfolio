@@ -9,33 +9,28 @@ import { sportsQA } from "../../Assets/information/QA";
 const gamingCarousel = [
   {
     id: 1,
-    imgUrl: require("../../Assets/Photos/bloodborne.jpg"),
-    imgTitle: "Bloodborne",
+    imgUrl: require("../../Assets/Photos/Basketball.jpg"),
+    imgTitle: "Basketball",
   },
   {
     id: 2,
-    imgUrl: require("../../Assets/Photos/ghostsOfTsushima.jfif"),
-    imgTitle: "Ghosts of Tsushima",
+    imgUrl: require("../../Assets/Photos/Football.jpg"),
+    imgTitle: "Football",
   },
   {
     id: 3,
-    imgUrl: require("../../Assets/Photos/KnightsOfTheOldRepublic.jpg"),
-    imgTitle: "Knights of the old Republic",
+    imgUrl: require("../../Assets/Photos/Golf.jpg"),
+    imgTitle: "Golf",
   },
   {
     id: 4,
-    imgUrl: require("../../Assets/Photos/ZeldaTearsOfTheKingdom.avif"),
-    imgTitle: "Zelda Tears of the Kingdom",
-  },
-  {
-    id: 5,
-    imgUrl: require("../../Assets/Photos/Legend-of-Zelda-Ocarina-of-Time.jpg"),
-    imgTitle: "Zelda Ocarina of Time",
+    imgUrl: require("../../Assets/Photos/f1.jpg"),
+    imgTitle: "f1",
   },
 ];
 
 const intro =
-  'I have had a love for gaming pretty much my whole life. From Xbox system link parties with my extended family and I playing Halo CE and Halo 2 on the OG xbox on new years when they had just been released.Hosting Age of Empires 2 lan parties with my neighborhood group (stillgoes on to this day), we even had "skyrim days." When the legendaryedition was released we all got together and played it at the sametime for 4 days straight surviving on Dominos pizza and mt dew. Newgames have come out and I have loved many of them, some of those olderones I still hold close. There something amazing about being immersedin these crazy worlds with intriguing stories.';
+  "Sports have always been something important to me. Something to be competitive at or something to root for. Sometiems it is just something to be active without the suckyness of just going for a run or going on a hike. While my favorites have changed and adapted over the years I have usually always followed at least one at a time. Basketball, Football, Golf, and racing being my current favorites.";
 
 const Sports: React.FC = () => {
   return (

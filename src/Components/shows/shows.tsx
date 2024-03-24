@@ -8,7 +8,7 @@ import showsCarousel from "../../Assets/information/shows";
 import { showsQA } from "../../Assets/information/QA";
 
 const intro =
-  'I have had a love for Movies pretty much my whole life. From Xbox system link parties with my extended family and I playing Halo CE and Halo 2 on the OG xbox on new years when they had just been released. To playing Age of Empires 2 lan parties with my neighborhood group (still goes on to this day), we even had "skyrim days." When the legendary edition was released we all got together and played it at the same time for 4 days straight surviving on Dominos pizza and mt dew. New games have come out and I have loved many of them, some of those older ones I still hold close. There something amazing about being immersed in these crazy worlds with intriguing stories.';
+  "TV shows have always been something I liked but only more recently became something I loved. There is so many great shows out there, even so, it is difficult to find them because there is also so much garbage. Adding to that is a mixture of differing opinions and longevitiy. I grew up watching: Scooby-doo, Hannah Montana, ICarly, Phineas and Ferb, Top Gear, and so many more. It wasnt until I watched Psych when I was 15 ish, Avatar the last airbender (18ish) and How I Met Your Mother that I truly fell in love with TV shows. So many start well and fail or start rough and get better I found it difficult to invest in any shows.";
 
 const Shows: React.FC = () => {
   return (
