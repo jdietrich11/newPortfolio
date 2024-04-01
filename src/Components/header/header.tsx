@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 import "./header.styles.scss";
-import "./header.animation.scss";
 
 const Header: React.FC = () => {
   const [path, setPath] = useState("headerContainer");
