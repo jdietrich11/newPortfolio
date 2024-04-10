@@ -50,17 +50,20 @@
     position: absolute;
 
     animation: namePositionAnimation 1s ease-in-out;
+    animation-duration: 1ms;
     animation-timeline: scroll();
 
     transform: translate(-50%, -50%);
     .name {
       animation: nameAnimation 1s ease-in-out;
+      animation-duration: 1ms;
       animation-timeline: scroll();
     }
     .titleContainer {
       overflow: hidden;
 
       animation: titleAnimation 1s ease-in-out;
+      animation-duration: 1ms;
       animation-timeline: scroll();
     }
   }
@@ -68,6 +71,7 @@
   .linkContainerAbout,
   .linkContainerResume {
     animation: linksAnimation 1s ease-in-out;
+    animation-duration: 1ms;
     animation-timeline: scroll();
   }
 
@@ -79,6 +83,7 @@
   }
 
   animation: scrollAnimation 1s ease-in-out;
+  animation-duration: 1ms;
   animation-timeline: scroll();
 }
 
