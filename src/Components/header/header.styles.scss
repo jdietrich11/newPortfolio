@@ -50,26 +50,25 @@
     position: absolute;
 
     animation: namePositionAnimation 1s ease-in-out;
-    animation-timeline: scroll(block nearest);
+    animation-timeline: scroll();
 
     transform: translate(-50%, -50%);
     .name {
       animation: nameAnimation 1s ease-in-out;
-      animation-timeline: scroll(block nearest);
+      animation-timeline: scroll();
     }
     .titleContainer {
       overflow: hidden;
-      .title {
-      }
+
       animation: titleAnimation 1s ease-in-out;
-      animation-timeline: scroll(block nearest);
+      animation-timeline: scroll();
     }
   }
 
   .linkContainerAbout,
   .linkContainerResume {
     animation: linksAnimation 1s ease-in-out;
-    animation-timeline: scroll(block nearest);
+    animation-timeline: scroll();
   }
 
   .linkContainerResume {
@@ -80,7 +79,7 @@
   }
 
   animation: scrollAnimation 1s ease-in-out;
-  animation-timeline: scroll(block nearest);
+  animation-timeline: scroll();
 }
 
 .otherHeaderContainer {
@@ -94,15 +93,6 @@
   background-color: black;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
-
-  .nameContainer {
-    .name {
-    }
-    .titleContainer {
-      .title {
-      }
-    }
-  }
 
   .linkContainerAbout {
     margin-right: 2rem;
