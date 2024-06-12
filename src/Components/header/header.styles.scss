@@ -6,10 +6,21 @@
   position: fixed;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   max-width: 100rem;
   width: 95vw;
+  height: 11rem;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 200;
+
+  border-bottom: 3px solid $pink-color;
+  box-shadow: 0 2px 0 0 $blue-color;
+  border-radius: 6rem;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.95);
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
 
   .nameContainer {
     display: flex;
@@ -22,6 +33,7 @@
       color: $blue-color;
       font-size: 5rem;
       filter: saturate(150%);
+      text-shadow: 5px 5px 0 $pink-color;
     }
     .titleContainer {
       .title {
@@ -36,68 +48,6 @@
     text-decoration: none;
     font-size: 2rem;
   }
-}
-
-.headerContainer {
-  justify-content: center;
-  left: 50%;
-  z-index: 200;
-  height: 100vh;
-
-  transform: translate(-50%, 0);
-  .nameContainer {
-    position: absolute;
-
-    animation: namePositionAnimation 1s ease-in-out;
-    animation-duration: 1ms;
-    animation-timeline: scroll();
-
-    transform: translate(-50%, -50%);
-    .name {
-      animation: nameAnimation 1s ease-in-out;
-      animation-duration: 1ms;
-      animation-timeline: scroll();
-    }
-    .titleContainer {
-      overflow: hidden;
-
-      animation: titleAnimation 1s ease-in-out;
-      animation-duration: 1ms;
-      animation-timeline: scroll();
-    }
-  }
-
-  .linkContainerAbout,
-  .linkContainerResume {
-    animation: linksAnimation 1s ease-in-out;
-    animation-duration: 1ms;
-    animation-timeline: scroll();
-  }
-
-  .linkContainerResume {
-    color: $blue-color;
-  }
-  .linkContainerAbout {
-    color: $pink-color;
-  }
-
-  animation: scrollAnimation 1s ease-in-out;
-  animation-duration: 1ms;
-  animation-timeline: scroll();
-}
-
-.otherHeaderContainer {
-  height: 10rem;
-  border-bottom: 3px solid $pink-color;
-  box-shadow: 0 2px 0 0 $blue-color;
-  border-radius: 6rem;
-  justify-content: space-between;
-  text-decoration: none;
-  margin-top: -12rem;
-  background-color: black;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
-
   .linkContainerAbout {
     margin-right: 2rem;
     color: $blue-color;
@@ -108,130 +58,6 @@
   }
 }
 
-@media (max-width: 1024px) {
-}
-@media (max-width: 768px) {
-  .headerContainer {
-    width: 100vw;
-    padding: 2rem;
-    .nameContainer {
-      margin-left: -2.5rem;
-    }
-  }
-}
-@media (max-width: 480px) {
-}
-
-@keyframes scrollAnimation {
-  0% {
-    height: 100vh;
-    width: 100vw;
-    border-bottom: 0;
-  }
-  23% {
-    border-radius: 0;
-  }
-  25% {
-    background-color: rgba(0, 0, 0, 0);
-  }
-  28% {
-    height: 10rem;
-    max-width: 100rem;
-    background-color: black;
-    border-bottom: 0.3rem solid $blue-color;
-    border-bottom-right-radius: 3rem;
-    border-bottom-left-radius: 3rem;
-  }
-  100% {
-    height: 10rem;
-    width: 100rem;
-    background-color: black;
-    border-bottom: 0.3rem solid $blue-color;
-    border-bottom-right-radius: 3rem;
-    border-bottom-left-radius: 3rem;
-  }
-}
-
-@keyframes titleAnimation {
-  0% {
-  }
-  25% {
-    height: 3rem;
-    transform: translateY(0);
-  }
-  43% {
-    height: 0;
-    transform: translateY(-2rem);
-  }
-  100% {
-    height: 0;
-    transform: translateY(-2rem);
-  }
-}
-
-@keyframes nameAnimation {
-  0% {
-  }
-  25% {
-    text-shadow: none;
-  }
-  43% {
-    text-shadow: 5px 5px 0 $pink-color;
-  }
-  100% {
-    text-shadow: 5px 5px 0 $pink-color;
-  }
-}
-
-@keyframes namePositionAnimation {
-  0% {
-    left: 80%;
-    top: 15%;
-    width: 50rem;
-  }
-  25% {
-    top: 50%;
-    left: 80%;
-    width: 50rem;
-  }
-  43% {
-    left: 50%;
-    top: 50%;
-  }
-  100% {
-    left: 50%;
-    top: 50%;
-  }
-}
-
-@keyframes linksAnimation {
-  0% {
-    height: 0;
-    width: 0;
-    opacity: 0;
-  }
-  25% {
-    margin: 0;
-  }
-  30% {
-    height: 0;
-    width: 0;
-    opacity: 0;
-    margin-right: 15rem;
-    margin-left: 15rem;
-  }
-  35% {
-    height: auto;
-    width: auto;
-    opacity: 100;
-    margin-right: 32rem;
-    margin-left: 32rem;
-  }
-  100% {
-    height: auto;
-    width: auto;
-    opacity: 100;
-    margin-right: 32rem;
-    margin-left: 32rem;
-  }
+.otherHeaderContainer {
+  margin-top: -12rem;
 }
