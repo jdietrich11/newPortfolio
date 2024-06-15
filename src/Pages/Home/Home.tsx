@@ -23,13 +23,13 @@ const Home: React.FC = () => {
   return (
     <div className="homeContainer">
       <div className="videoContainer">
-        {/* <video
+        <video
           autoPlay
           loop
           muted
           className="videoTag"
           src={require("../../Assets/Video/video.mp4")}
-        ></video> */}
+        ></video>
       </div>
       <IntroBanner />
       <div className="experienceContainer">
